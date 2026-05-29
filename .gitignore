@@ -1,0 +1,39 @@
+# macOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Node.js
+**/node_modules/
+**/dist/
+**/.svelte-kit/
+**/.next/
+**/build/
+.env
+.env.local
+
+# Python
+**/venv/
+**/env/
+**/ENV/
+**/.venv/
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/.pytest_cache/
+**/.mypy_cache/
+
+# Local databases and downloaded media data (very large files)
+**/backend/data/*.wav
+**/backend/data/features_*.json
+**/backend/data/db.json
+
+# IDEs
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
